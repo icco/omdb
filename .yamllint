@@ -1,0 +1,11 @@
+# yamllint defaults are tuned for hand-written config, not GitHub Actions:
+# every workflow trips document-start and truthy (`on:`), and golangci-lint's
+# args line cannot be wrapped under 80 characters.
+extends: default
+rules:
+  document-start: disable
+  line-length: disable
+  truthy:
+    check-keys: false
+  comments:
+    min-spaces-from-content: 1
