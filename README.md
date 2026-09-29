@@ -1,6 +1,6 @@
 # omdb
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/icco/omdb.svg)](https://pkg.go.dev/github.com/icco/omdb)
+[![Go Reference](https://pkg.go.dev/badge/go.icco.me/omdb.svg)](https://pkg.go.dev/go.icco.me/omdb)
 [![Test Go](https://github.com/icco/omdb/actions/workflows/test.yml/badge.svg)](https://github.com/icco/omdb/actions/workflows/test.yml)
 
 A Go client for the [OMDb API](https://www.omdbapi.com/), with the resilience a quota-limited free API actually needs.
@@ -10,7 +10,7 @@ OMDb is the practical way to get a **Metacritic Metascore** in code — Metacrit
 Get a free key at [omdbapi.com/apikey.aspx](https://www.omdbapi.com/apikey.aspx). The free tier allows 1,000 requests per day.
 
 ```
-go get github.com/icco/omdb
+go get go.icco.me/omdb
 ```
 
 ## Usage

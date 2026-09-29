@@ -25,6 +25,6 @@ release:
   mode: replace
   footer: |
     ---
-    Install with `go get github.com/icco/omdb@{{ .Tag }}`.
+    Install with `go get go.icco.me/omdb@{{ .Tag }}`.
 
     **Full Changelog**: https://github.com/icco/omdb/compare/{{ .PreviousTag }}...{{ .Tag }}
