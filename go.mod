@@ -1,3 +1,3 @@
-module github.com/icco/omdb
+module go.icco.me/omdb
 
 go 1.25.0

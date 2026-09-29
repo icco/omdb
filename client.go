@@ -25,7 +25,7 @@ import (
 const DefaultBaseURL = "https://www.omdbapi.com/"
 
 // DefaultUserAgent identifies this client to OMDb.
-const DefaultUserAgent = "github.com/icco/omdb"
+const DefaultUserAgent = "go.icco.me/omdb"
 
 // ErrCircuitOpen lets callers short-circuit retry and log loops when OMDb is
 // known-down. Match it with errors.Is.
